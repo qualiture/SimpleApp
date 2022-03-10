@@ -90,7 +90,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
             self.coveringView?.alpha = 1.0
         }
     }
-
+    
+    /// Shows application screen
     func showAppScreen() {
         UIView.animate(withDuration: 0.3) {
             self.coveringView?.alpha = 0
